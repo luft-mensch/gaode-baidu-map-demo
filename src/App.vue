@@ -1,13 +1,16 @@
 <template>
-  <GaodeMap/>
+<!--  <GaodeMap/>-->
+  <Map/>
 </template>
 
 <script>
-import GaodeMap from './components/GaodeMap.vue'
+import GaodeMap from '@/components/GaodeMap'
+import Map from "@/components/Map";
 
 export default {
   name: 'App',
   components: {
+    Map,
     GaodeMap
   }
 }
